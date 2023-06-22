@@ -25,20 +25,25 @@ Before running this project, ensure you have the following prerequisites:
    ```
 
 2. Navigate to the project directory:
+
    cd your-repo
 
 3. Build the Docker images:
+
    docker-compose build
 
 ## Usage
 
 1. Start the project:
+
    docker-compose up
 
 2. Access the application:
+
    React frontend: Open your web browser and visit http://localhost:3000
    Express backend: Make API requests to http://localhost:8000
    MongoDB: Connect to mongodb://localhost:27017 using a MongoDB client
 
 3. Stop the project:
+
    docker-compose down

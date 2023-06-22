@@ -13,7 +13,7 @@ logs/
 *.log
 
 # Dependencies installed via npm
-package-lock.json
+# package-lock.json
 
 # IDE-specific files and directories
 .vscode/
